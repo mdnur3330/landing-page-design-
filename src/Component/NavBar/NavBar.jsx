@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-white sticky top-0 z-50">
-      <div className="w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-10/12 mx-auto">
         <div className="flex justify-between items-center h-16">
           
           {/* Left Menu for Desktop */}
@@ -19,8 +19,8 @@ export default function Navbar() {
           </div>
 
           {/* Logo */}
-          <div className="flex justify-center items-center">
-            <img src={logo} alt="Logo" className="h-12 w-12 rounded-full border border-gray-300 shadow-md" />
+          <div className="flex justify-center items-end">
+            <img src={logo} alt="Logo" className="h-22 w-20 rounded-full border-10 border-white mt-5" />
           </div>
 
           {/* Right Icons */}
