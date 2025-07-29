@@ -4,6 +4,7 @@ import product1 from "../../assets/p1.png"
 import product2 from "../../assets/p2.png"
 import product3 from "../../assets/p3.png"
 import product4 from "../../assets/p4.png"
+import { Element } from 'react-scroll'
 
 
 const landscapeProducts = [
@@ -42,8 +43,10 @@ const landscapeProducts = [
 
 export default function LandscapeProducts() {
   return (
+    <Element name="shop">
     <div>
       <Products title="Agricultural Products" products={landscapeProducts} />
     </div>
+    </Element>
   )
 }

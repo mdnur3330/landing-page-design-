@@ -1,12 +1,43 @@
-# React + Vite
+# 🌿 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Landing Page  built with React and Tailwind CSS. 
 
-Currently, two official plugins are available:
+--- live link : https://imaginative-buttercream-f51be5.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+### 🔧 Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – For building dynamic, component-based UI.
+- **Tailwind CSS** – Utility-first CSS framework for rapid and responsive design.
+- **React Router** – For client-side routing and navigation.
+- **Swiper.js** – For creating responsive, touch-friendly sliders and carousels.
+- **React Icons** – A simple way to include popular icons (FontAwesome, Material UI, etc.) in React.
+
+---
+
+## 🎡 Features
+
+- Fully responsive layout across devices.
+- Swiper slider integration for showcasing items in a carousel.
+- Clean and modern UI using Tailwind utility classes.
+- Icons provided by React Icons for a polished look.
+- Smooth page navigation using React Router.
+- Hosted on **Netlify** for fast global performance.
+
+---
+
+## 🧩 Notable Libraries
+
+- [Swiper.js](https://swiperjs.com/react): Used to build responsive sliders with touch and drag support.
+- [React Icons](https://react-icons.github.io/react-icons/): Used to integrate scalable vector icons in the UI.
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm install
+npm run dev

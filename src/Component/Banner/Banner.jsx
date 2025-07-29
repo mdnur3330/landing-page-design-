@@ -7,6 +7,7 @@ import CustomButton from "../../SheardComponent/CustomButton";
 import heroImg1 from '../../assets/Group 507.png';
 import heroImg2 from '../../assets/image (1).png';
 import heroImg3 from '../../assets/heroimg.png';
+import { Element } from "react-scroll";
 
 const products = [
   {
@@ -31,6 +32,7 @@ const products = [
 
 export default function Banner() {
   return (
+     <Element name="home">
     <section className="max-w-10/12 mx-auto relative">
       <Swiper
         modules={[Navigation]}
@@ -78,5 +80,6 @@ export default function Banner() {
         </button>
       </div>
     </section>
+    </Element>
   );
 }
