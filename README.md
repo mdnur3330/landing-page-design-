@@ -37,7 +37,6 @@ A modern, responsive Landing Page  built with React and Tailwind CSS.
 ## 📦 Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+cd repo
 npm install
 npm run dev
